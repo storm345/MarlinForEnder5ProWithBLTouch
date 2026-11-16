@@ -23,7 +23,7 @@
 
 #define CONFIG_EXAMPLES_DIR "Creality/Ender-5 Pro/CrealityV422"
 
-//#define ENDER5_USE_BLTOUCH
+#define ENDER5_USE_BLTOUCH
 //#define ENDER5_USE_MICROSWISS
 
 /**
@@ -74,6 +74,7 @@
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
   #define MOTHERBOARD BOARD_CREALITY_V422
+  //#define MOTHERBOARD BOARD_CREALITY_V422_GD32_MFL
 #endif
 
 // @section serial
